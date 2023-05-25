@@ -5,7 +5,7 @@ export async function GET(request, { params }) {
 
   const name = `Crypto Devs #${ tokenId }`;
   const description = 'CryptoDevs is NFT Collection for Web3 Developers';
-  const image = `${ new URL(request.url).origin }/${ Number(tokenId) - 1 }.svg`;
+  const image = `${ new URL(request.url).origin }/cryptodevs/${ Number(tokenId) - 1 }.svg`;
 
   return NextResponse.json({ name, description, image });
 }
