@@ -14,4 +14,4 @@ module.exports = {
   },
 };
 
-//crypto devs contract adress 0x8384B08573E04f468caD61e58668d524961d31d8
+//crypto devs contract adress 0x3261F12E659d65033D1d2D32dBe17Cbcb259a12b
